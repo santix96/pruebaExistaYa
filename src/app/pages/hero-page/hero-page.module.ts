@@ -5,6 +5,7 @@ import { HeroPageRoutingModule } from './hero-page-routing.module';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [HeroPageComponent],
@@ -13,7 +14,8 @@ import {MatButtonModule} from '@angular/material/button';
     HeroPageRoutingModule,
     MatButtonModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressBarModule
     
   ]
 })

@@ -5,7 +5,7 @@ import { HeroPageComponent } from './hero-page.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: ':id',
     component: HeroPageComponent
   }
 ];
